@@ -27,3 +27,16 @@ sleep 5
 
 fa
 
+#creating another function stat
+stat ()
+{
+    echo "load average from last one minute is $(uptime |awk -F : '{print $NF}' | awk -F , '{print $1}')"
+    echo "number of open sessions are $(who |wc -l)"
+    echo "todays date is $(date +%F)"
+
+
+}
+echo "calling a stat function"
+stat
+
+
