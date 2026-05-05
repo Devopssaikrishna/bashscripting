@@ -1,5 +1,12 @@
 #!/bin/bash
 
+
+sam ()
+{
+    echo "i am command from sam"
+}
+
+
 fa ()
 {
     echo "i am first line in the function f";
