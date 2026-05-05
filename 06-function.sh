@@ -39,4 +39,7 @@ stat ()
 echo "calling a stat function"
 stat
 
+echo "calling a common.sh function"
+common_func
+
 
