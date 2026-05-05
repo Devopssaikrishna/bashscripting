@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+source ./common.sh
 sam ()
 {
     echo "i am command from sam"
