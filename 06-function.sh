@@ -12,6 +12,8 @@ fa ()
     echo "i am first line in the function f";
     echo "today's date is $(date +%F)"
     echo "tell me how many sessiosn running $(who |wc -l)"
+    echo "calling sam function"
+    sam 
     echo "function f completed"
 }
 
