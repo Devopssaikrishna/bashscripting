@@ -1,6 +1,6 @@
 #!/bin/bash
 
-f ()
+fa ()
 {
     echo "i am first line in the function f";
     echo "today's date is $(date +%F)"
@@ -9,12 +9,12 @@ f ()
 }
 
 echo "showing how to call a function"
-f
+fa
 sleep 5
 
-f
+fa
 
 sleep 5
 
-f
+fa
 
